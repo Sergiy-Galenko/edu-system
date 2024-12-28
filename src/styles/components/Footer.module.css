@@ -1,0 +1,64 @@
+.projectsFooterContainer {
+  background: linear-gradient(to bottom, #d9f1ff, #355368);
+  padding: 20px 0;
+}
+
+.otherProjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid25 {
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+}
+
+.projectLogo {
+  font-size: 2rem; 
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+
+.projectLogo:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background: #355368;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #d9f1ff;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid60 {
+  width: 60%;
+  margin: 0 auto;
+}
