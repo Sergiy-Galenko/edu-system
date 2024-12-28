@@ -1,0 +1,42 @@
+.carouselContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.imageWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.arrowButton {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    padding: 0 1rem;
+    color: #333;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.arrowButton:hover {
+    opacity: 1;
+}
+
+.imageWrapper img:hover {
+    transform: scale(1.02);
+}
