@@ -1,0 +1,12 @@
+.search_block__input {
+    height: 25px;
+}
+
+.search_block__input:focus-visible {
+    outline: none;
+}
+
+.search_block__button {
+    height: 30px;
+    margin-right: -2px;
+}
