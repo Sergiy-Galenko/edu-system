@@ -4,6 +4,7 @@ import { FaFacebook, FaLink, FaGlobe } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
+    <footer className={styles.footer}>
     <div className={styles.projectsFooterContainer}>
       <div className={styles.otherProjects}>
         <div className={styles.row}>
@@ -63,8 +64,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <footer className={styles.footer}>
+      
         <div className={styles.wrap}>
           <div className={styles.row}>
             <div className={styles.grid60}>
@@ -81,8 +81,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
 
