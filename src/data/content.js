@@ -4,7 +4,7 @@ export const titleBar = {
 	logo: "https://rada.info/upload/users_files/42136366/gerb/13254179621.png",
 };
 
-export const navBarData = [
+export const asideData = [
 	{
 		label: "Home",
 		url: "/",
@@ -55,3 +55,30 @@ export const navBarData = [
 		],
 	},
 ];
+
+export const navBar = [
+	{
+		label: "Головна",
+		url: "/",
+	},
+	{
+		label: "Новини",
+		url: "/news",
+	},
+	{
+		label: "Фотогалерея",
+		url: "/photos",
+	},
+	{
+		label: "Контакти",
+		url: "/contacts",
+	},
+	{
+		label: "Оголошення",
+		url: "/announcments",
+	},
+	{
+		label: "Батькам",
+		url: "/forParrents",
+	},
+]

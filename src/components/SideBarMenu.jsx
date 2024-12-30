@@ -3,17 +3,17 @@ import { FaChevronLeft } from "react-icons/fa";
 
 import styles from "../styles/components/SideBar.module.css";
 
-function SideBarMenu({ navBarData }) {
+function SideBarMenu({ asideData }) {
 	return (
-		<nav className={styles.sideBarMenu}>
+		<aside className={styles.sideBarMenu}>
 			<ul className={styles.ul}>
-				{navBarData.map((item, index) => {
+				{asideData.map((item, index) => {
 					return (
 						<SideBarElement key={index} title={item.label} link={item.url} submenu={item.submenu} level={0} />
 					);
 				})}
 			</ul>
-		</nav>
+		</aside>
 	);
 }
 
