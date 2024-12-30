@@ -1,0 +1,14 @@
+.font_size__button, 
+.font_color__button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.font_size__button {
+    text-decoration: underline;
+    color: #25669c;
+}
+
+.font_color__button{
+    color: #25669c;
+}

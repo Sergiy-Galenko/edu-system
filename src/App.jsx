@@ -1,14 +1,15 @@
-import "./App.css";
-import SideBarMenu from "./components/SideBarMenu";
-import TitleBar from "./components/TitleBar";
-import { navBarData, titleBar } from "./data/content";
+import "./styles/common.css";
+import {Header} from './components/Header'
+import {Main} from './components/Main'
+import Footer from './components/Footer'
 
 function App() {
 	return (
-		<div className="App">
-			<TitleBar title={titleBar.title} subTitle={titleBar.subTitle} logo={titleBar.logo} />
-			<SideBarMenu navBarData={navBarData} />
-		</div>
+		<>
+			<Header />
+			<Main />
+			<Footer />
+		</>
 	);
 }
 
